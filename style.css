@@ -1,0 +1,23 @@
+.profile-image {
+  display: fixed;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 60px; /* Adjust this value based on the height of your navbar */
+  left: 10px;
+  z-index: 100;
+}
+
+.portfolio-item .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#about,
+#projects,
+#contact {
+  padding: 70px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
